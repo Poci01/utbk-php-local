@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.soal-container {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.nav-panel {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.nomor-soal button {
+    margin: 3px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.nomor-soal button.answered {
+    background: #4caf50;
+    color: white;
+}
+
+.nomor-soal button.ragu {
+    background: orange;
+    color: white;
+}
+
+.nav-buttons {
+    margin-top: 15px;
+}
+
+.nav-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background: #0077cc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons button:disabled {
+    background: #999;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
